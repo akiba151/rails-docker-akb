@@ -32,10 +32,10 @@ jobs:
       - ruby/install-deps
       - run:
           name: Database setup
-          command: ls -l
+          command: bundle exec rails db:migrate
       - run:
           name: test
-          command: ls -l
+          command: bundle exec rake test
 
 workflows:
   version: 2
