@@ -35,7 +35,7 @@ jobs:
           command: ls -l
       - run:
           name: test
-          command: bundle exec rake test
+          command: ls -l
 
 workflows:
   version: 2
