@@ -28,7 +28,7 @@ test:
   working_dirctory: ~/rails-docker-akb/src
   steps:
     - checkout
-      path: ~/rails-docker-akb
+          path: ~/rails-docker-akb
     - ruby/install-deps
     - run:
       name: Database setup
